@@ -27,7 +27,7 @@ public class HelloWorld extends HttpServlet {
     }
 
     public static void main(String[] args) throws Exception{
-        int port = 5000;
+        int port = 8080;
         try {
         	port = Integer.valueOf(System.getenv("PORT"));
         } catch(NumberFormatException e) {}
